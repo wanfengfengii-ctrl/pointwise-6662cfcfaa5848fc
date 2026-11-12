@@ -1,0 +1,7 @@
+metric,id,display,panel
+persistent,HJ:persistent,*,HJ
+persistent,HF:persistent,*,HF
+persistent,HA:persistent,*,HA
+changed,H00:changed,60,H00
+second,H00:second,64,H00
+first,H00:first,52,H00

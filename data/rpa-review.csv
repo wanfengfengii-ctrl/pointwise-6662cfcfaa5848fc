@@ -1,0 +1,4 @@
+metric,id,display,panel
+first,P01:first,10,P01
+second,P01:second,10,P01
+changed,P01:changed,11,P01

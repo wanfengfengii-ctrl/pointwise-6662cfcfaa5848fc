@@ -1,0 +1,32 @@
+[
+  {
+    "id": "req-101",
+    "url": "https://stats.example.invalid/release/w44",
+    "accept": "application/json",
+    "status": 200,
+    "etag": "review-41",
+    "release": "screening-2026w44-review",
+    "body": "data/capture-review.json",
+    "select": false
+  },
+  {
+    "id": "req-102",
+    "url": "https://stats.example.invalid/release/w44",
+    "accept": "application/json",
+    "status": 200,
+    "etag": "final-42",
+    "release": "screening-2026w44-final",
+    "body": "data/capture-final.json",
+    "select": false
+  },
+  {
+    "id": "req-103",
+    "url": "https://stats.example.invalid/release/w44",
+    "accept": "application/json",
+    "status": 304,
+    "if_none_match": "final-42",
+    "release": "screening-2026w44-final",
+    "resolved_body": "data/capture-final.json",
+    "select": true
+  }
+]
